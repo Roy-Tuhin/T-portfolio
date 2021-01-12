@@ -517,8 +517,8 @@ img{
      padding: 50px 0;
      min-height: 100vh;
 }
-.home-section .home-text,
-.home-section .home-img{
+.home-section .home-text
+/* .home-section .home-img*/{ 
      flex: 0 0 50%;
      max-width: 50%;
      padding: 0 15px;
@@ -547,19 +547,18 @@ img{
 .home-section .home-text .btn-1{                         /*About Me--space   */
      margin-top: 30px;
 }
-.home-section .home-img .img-box{
-     /* background-color: red; */
+/* .home-section .home-img .img-box{
      max-width: 350px;
      display:block;
      margin:auto;
      border-radius: 50%;
      padding: 15px;
 }
-.home-section .home-img .img-box img{                   /* image box shadow */
+.home-section .home-img .img-box img{                   
      width: 100%;
      border-radius: 50%;
      border: 10px solid transparent;
-}
+} */
 
 
 
