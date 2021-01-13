@@ -978,8 +978,19 @@ img{
      opacity: 0;                                                   /* VIEW Project hidden when not hovering*/
      z-index: -1;
 }
-.portfolio-section .portfolio-item-inner .portfolio-item-title{     /* Background Remover Web-App color*/
+.portfolio-section .portfolio-item-inner .portfolio-item-title {     /* Background Remover Web-App color*/
      color: var(--skin-color);
+}
+.portfolio-section .portfolio-item-inner .portfolio-item-details .description{
+     color : var(--text-black-900);
+     margin-top: 5%;
+}
+.portfolio-section .portfolio-item-inner .portfolio-item-details .info  h3{           /* Project info text color */
+     color : var(--text-black-900);
+     margin-top: 5%;
+}
+.portfolio-section .portfolio-item-inner .portfolio-item-details .info ul{
+     color : var(--text-black-300);
 }
 
 .portfolio-section .portfolio-item-inner:hover .view-project{
