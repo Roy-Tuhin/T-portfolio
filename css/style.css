@@ -956,14 +956,17 @@ img{
 .portfolio-section .portfolio-item-img img{                            /* only portfolio image curve not outter body*/
      border-radius: 5px;
      width: 100%;
-     transition: all 0.3s ease;
+     transition: all 0.5s ease;
 }
 .portfolio-section .portfolio-item-inner:hover .portfolio-item-img img{    /* After Hover pic Fade effect */
-     transform: translateY(-25px);
+     /* transform: translateY(-25px); */
+     transform: scale(1.1);
 }
 .portfolio-section .portfolio-item-img{
      position: relative;
 } 
+
+
 .portfolio-section .portfolio-item-img .view-project{                 /* view project NOT FOR NOW*/
      /* display: none; */
      text-transform: capitalize;

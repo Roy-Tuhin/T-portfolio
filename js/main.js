@@ -39,7 +39,7 @@
                //active new 'tab-content'
                aboutSection.querySelector(target).classList.add("active");
           }
-     })
+     });
 })();
 
 
