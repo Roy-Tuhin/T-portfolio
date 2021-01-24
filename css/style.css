@@ -66,6 +66,9 @@ body{
      overflow-x: hidden;
      background-color: var(--bg-black-50);
 }
+html{
+     scroll-behavior: smooth;
+}
 
 *:not(i){
      font-family: 'Raleway', sans-serif;
