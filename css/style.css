@@ -1,6 +1,4 @@
-/*-------------
------------------------------------------------------------fonts-------------------------------------------------
----------------*/
+/*--------------------------------------------------------fonts------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
 
@@ -11,27 +9,10 @@
 
 
 
-/*-------------
-------------------------------------------------------Global style-----------------------------------------------
----------------*/
+/*----------------------------------------------------------Global style-------------------------------------------------*/
 
 
 /*define custom css variables */
-/* :root{
-     --bg-black-900: #000000;
-     --bg-black-100:#dddddd;
-     --bg-black-50: #eff0f4;
-     --text-black-900: #000000;
-     --text-black-700: #555555;
-     --text-black-600: #666666;
-     --text-black-300: #bbbbbb;
-     --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
-     --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
-     --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
-
-} */
-
-
 :root{
 --bg-black-900: #ffffff;
 --bg-black-100: #353535;
@@ -263,18 +244,20 @@ img{
 
 @keyframes spin{                                /*Effect 1  rotation */
      0%{
-          transform: rotate(0deg);
+     transform: rotate(0deg);
      }
+
      100%{
-          transform: rotate(360deg);   
+     transform: rotate(360deg);   
      }
 }
 @keyframes topBounce{                          /*Effect 2 bounce Animation */
      0%,100%{
-          transform: translateY(0);
+     transform: translateY(0);
      }
+     
      50%{
-          transform: translateY(25px);
+     transform: translateY(25px);
      }
 }
 @keyframes leftBounce{                          /*Effect 3 left-right Animation */
