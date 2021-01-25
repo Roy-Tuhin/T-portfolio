@@ -30,20 +30,7 @@
      --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
 
 } */
-/* css variables for dark theme*/
-/* body.dark{
-     --bg-black-900: #ffffff;
-     --bg-black-100: #353535;
-     --bg-black-50: #2b2c2f;
-     --bg-opacity: rgba(43,44,47,0.5);
-     --text-black-900: #ffffff;
-     --text-black-700: #ffffff;
-     --text-black-600: #bbbbbb;
-     --outer-shadow: 3px 3px 3px #222327, -3px -3px 3px #363636;
-     --outer-shadow-0: 0 0 0 #222327, 0 0 0 #363636;
-     --inner-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #363636;
-     --inner-shadow-0: inset 3px 3px 3px #222327, inset 0 0 0 #363636;
-} */
+
 
 :root{
 --bg-black-900: #ffffff;
@@ -73,21 +60,15 @@ html{
 *:not(i){
      font-family: 'Raleway', sans-serif;
 }
-
-
 *{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
      outline:  none;
 }
-
-
 :before,:after{
      box-sizing: border-box;
 }
-
-
 a{
      text-decoration: none;
 }
@@ -351,6 +332,7 @@ img{
 
 
 
+
 /*--------------------------------------------------header styling-----------------------------------------------*/
 
 
@@ -560,7 +542,7 @@ img{
      color: var(--text-black-300);
      font-size: 18px;
      text-transform: capitalize;
-     margin: 0;
+     margin: 0px;
      right: 50%;
 }
 .home-section .home-text h2{
@@ -579,18 +561,7 @@ img{
 .home-section .home-text .btn-1{                         /*About Me--space   */
      margin-top: 30px;
 }
-/* .home-section .home-img .img-box{
-     max-width: 350px;
-     display:block;
-     margin:auto;
-     border-radius: 50%;
-     padding: 15px;
-}
-.home-section .home-img .img-box img{                   
-     width: 100%;
-     border-radius: 50%;
-     border: 10px solid transparent;
-} */
+
 
 
 
