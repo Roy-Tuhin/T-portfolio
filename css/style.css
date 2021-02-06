@@ -967,6 +967,15 @@ img{
      text-transform: capitalize;
 } 
 
+
+.portfolio-section .portfolio-item-details .Demo-button{
+     margin-top: 30px;
+     padding: 10px 15px 50px;
+     flex: 0 0 100%;
+     text-align: center;
+     
+}
+
 /*--------------------------------------------- portfolio section styling END-----------------------------------*/
 
 
