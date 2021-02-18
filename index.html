@@ -4,6 +4,7 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="IE-edge">
      <title>Tuhin</title>
      <link rel='icon' href="icon.png" />
      <!-- main css-->
@@ -94,7 +95,7 @@
                     <div class="home-text">
                          <p>Hola</p>
                          <h2>I'm Tuhin Roy</h2>
-                         <h1>Computer Science student and aspiring Developer</h1>
+                         <h1><span class="type"></span></h1>
                          <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow"> More About Me</a>
                     </div>
                </div>
@@ -520,6 +521,25 @@
      <!--main js START-->
      <script src="js/main.js"></script>
      <!--main js END-->
+
+
+      <!--typed.js START-->
+     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+     <!--typed js END-->
+
+
+      <!--typed effect pausing START-->
+      <script>
+           var typed = new Typed('.type', {
+          strings: [ 'Aspiring Web Developer','Flutter Developer.',   'AI Enthusiast'] ,      // Waits 1000ms after typing "First"
+          typeSpeed: 100,
+          backSpeed: 70,
+          loop: true,
+     });
+      </script>
+      <!--typed effect pausing END-->
+
+
 </body>
 
 </html>
