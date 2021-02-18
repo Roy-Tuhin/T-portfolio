@@ -310,6 +310,8 @@ img {
 .home-section .home-text h1 span{
   color: #c6d7c7;
   font-weight: 500;
+  font-size: 20px;
+  padding: 0px 3px;
 }
 @media(max-width: 780px){
   .home-section .home-text h1 span{
