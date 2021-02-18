@@ -307,8 +307,8 @@ img {
 }
 
 
-.home-section .home-text h1 span{
-  color: #c6d7c7;
+.home-section .home-text h1 span{                      /*typing animation */
+  color: #b2dfdb;
   font-weight: 500;
   font-size: 20px;
   padding: 0px 3px;
