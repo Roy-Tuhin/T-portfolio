@@ -305,6 +305,18 @@ img {
   margin: 0;
   text-transform: capitalize;
 }
+
+
+.home-section .home-text h1 span{
+  color: #c6d7c7;
+  font-weight: 500;
+}
+@media(max-width: 780px){
+  .home-section .home-text h1 span{
+    font-size: 20px;
+    padding: 0px 3px;
+  }
+}
 .home-section .home-text .btn-1 {
   /*About Me--space   */
   margin-top: 30px;
