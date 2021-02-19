@@ -789,3 +789,30 @@ img {
   font-size: 1rem;
 }
 /*footer end*/
+
+
+
+
+
+
+
+
+/* nav bar styling*/
+
+.nav-links{
+  padding-left: 75%;
+  padding-right: 1%;
+  display: flex;
+    justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  
+  
+}
+.nav-links.sticky a{
+  padding: 30px 0;
+}
+
+

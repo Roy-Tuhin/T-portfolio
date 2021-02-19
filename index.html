@@ -13,6 +13,8 @@
      <link rel="stylesheet" type="text/css" href="css/skins/color-1.css">
      <!-- font awesome-->
      <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
      <!--responsive css-->
      <link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
@@ -26,9 +28,18 @@
 <body>
 
 
+     <!-- <nav>                             ------------------Will update soon--------------------------------
+          <ul class="nav-links">
+               <li><a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow "> About</a></li>
+               <li><a href="#portfolio" class="link-item btn-1 outer-shadow hover-in-shadow"> Projects</a></li>
+               <li><a href="#contact" class="link-item btn-1 outer-shadow hover-in-shadow"> Contact</a></li>
+          </ul>
+     </nav> -->
+
+
      <!----------------------------- Home Section start-------------------------------------------------->
      <section class="home-section section active " id="home">
-      <!------------------------Effect wrap start------------------------------------------------------->
+          <!------------------------Effect wrap start------------------------------------------------------->
           <div class="effect-wrap">
                <div class="effect effect-1"></div>
                <div class="effect effect-2">
@@ -76,7 +87,7 @@
                     <div></div>
                </div>
           </div>
-  <!------------------------Effect wrap END---------------------------------------------------->
+          <!------------------------Effect wrap END---------------------------------------------------->
 
           <div class="container">
                <div class="row full-screen align-items-center">
@@ -257,7 +268,7 @@
                <!------------------------2) Education End--------------------------->
           </div>
      </section>
- <!----------------------------------------------About Section End--------------------------------------------------------------------->
+     <!----------------------------------------------About Section End--------------------------------------------------------------------->
 
 
 
@@ -276,7 +287,7 @@
                          <h2 data-heading="projects"> Projects Works</h2>
                     </div>
                </div>
-    <!--------------------------------------------------- portfolio items () START--------------------------------------->
+               <!--------------------------------------------------- portfolio items () START--------------------------------------->
                <div class="row portfolio-items">
                     <!-- 1th portfolio item start -1ST proj, img and details----->
                     <div class="portfolio-item">
@@ -511,21 +522,21 @@
      <!--main js END-->
 
 
-      <!--typed.js START-->
+     <!--typed.js START-->
      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
      <!--typed js END-->
 
 
-      <!--typed effect pausing START-->
-      <script>
-           var typed = new Typed('.type', {
-          strings: [ 'Aspiring Web Developer.','Flutter Developer.',   'AI Enthusiast.'] ,      // Waits 1000ms after typing "First"
-          typeSpeed: 70,
-          backSpeed: 50,
-          loop: true,
-     });
-      </script>
-      <!--typed effect pausing END-->
+     <!--typed effect pausing START-->
+     <script>
+          var typed = new Typed('.type', {
+               strings: ['Flutter Developer.', 'AI Enthusiast.' , 'Aspiring Web Developer.', ],      // Waits 1000ms after typing "First"
+               typeSpeed: 70,
+               backSpeed: 50,
+               loop: true,
+          });
+     </script>
+     <!--typed effect pausing END-->
 
 </body>
 
