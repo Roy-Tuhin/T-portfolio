@@ -3,21 +3,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
 
 /*----------------------------------------------------------Global style-------------------------------------------------*/
-
-/*define custom css variables */
 :root {
   --bg-black-900: #ffffff;
   --bg-black-100: #353535;
-  --bg-black-50: #2b2c2f;
+  /* --bg-black-50: #2b2c2f; */
+  --bg-black-50: #0f1116;
   --bg-opacity: rgba(43, 44, 47, 0.5);
   --text-black-900: #ffffff;
   --text-black-700: #ffffff;
   --text-black-600: #bbbbbb;
   --text-black-300: #bbbbbb;
-  --outer-shadow: 3px 3px 3px #222327, -3px -3px 3px #363636;
-  --outer-shadow-0: 0 0 0 #222327, 0 0 0 #363636;
-  --inner-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #363636;
-  --inner-shadow-0: inset 3px 3px 3px #222327, inset 0 0 0 #363636;
+  --outer-shadow: 3px 3px 3px #000000, -3px -3px 3px #1b1b1b;
+  --outer-shadow-0: 0 0 0 #000000, 0 0 0 #1b1b1b;
+  --inner-shadow: inset 3px 3px 3px #000000, inset -3px -3px 3px #1b1b1b;
+  --inner-shadow-0: inset 3px 3px 3px #000000, inset 0 0 0 #1b1b1b;
 }
 
 body {
@@ -818,7 +817,7 @@ img {
   top: 0;
   left: 0;
   z-index: 999;
-  background-color: #070e20;
+  background-color: #0f1116;
   transition: opacity 1s ease 3s;
 }
 
