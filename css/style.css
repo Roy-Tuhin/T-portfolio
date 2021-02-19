@@ -808,7 +808,6 @@ img {
   
 }
 
-
 /*LOADER--------------------------------------------------------------*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
@@ -819,7 +818,7 @@ img {
   top: 0;
   left: 0;
   z-index: 999;
-  background-color: #06d79c;
+  background-color: #070e20;
   transition: opacity 1s ease 3s;
 }
 
@@ -835,7 +834,7 @@ preload-finish{
   font-weight: 600;
   font-size: 12px;
   text-transform: uppercase;
-  left: 50%;
+  left: 45%;
   top: 58%;
   margin-left: -20px;
 }
@@ -850,7 +849,7 @@ preload-finish{
 .man > span {
   height: 5px;
   width: 35px;
-  background: #000;
+  background: #fb839e;
   position: absolute;
   top: -19px;
   left: 60px;
@@ -862,7 +861,7 @@ preload-finish{
   width: 0;
   height: 0;
   border-top: 6px solid transparent;
-  border-right: 100px solid #000;
+  border-right: 100px solid #fb839e;
   border-bottom: 6px solid transparent;
 }
 .base span:before {
@@ -870,7 +869,7 @@ preload-finish{
   height: 22px;
   width: 22px;
   border-radius: 50%;
-  background: #000;
+  background: #fb839e;
   position: absolute;
   right: -110px;
   top: -16px;
@@ -881,7 +880,7 @@ preload-finish{
   width: 0;
   height: 0;
   border-top: 0 solid transparent;
-  border-right: 55px solid #000;
+  border-right: 55px solid #fb839e;
   border-bottom: 16px solid transparent;
   top: -16px;
   right: -98px;
@@ -891,7 +890,7 @@ preload-finish{
   position: absolute;
   height: 12px;
   width: 20px;
-  background: #000;
+  background: #fb839e;
   border-radius: 20px 20px 0 0;
   transform: rotate(-40deg);
   right: -125px;
@@ -901,7 +900,7 @@ preload-finish{
   content: "";
   height: 12px;
   width: 12px;
-  background: #000;
+  background: #fb839e;
   right: 4px;
   top: 7px;
   position: absolute;
@@ -916,7 +915,7 @@ preload-finish{
 .man > span > span:nth-child(4) {
   width: 30px;
   height: 1px;
-  background: #000;
+  background: #fb839e;
   position: absolute;
   animation: fazer1 0.2s linear infinite;
 }
@@ -937,6 +936,9 @@ preload-finish{
   animation: fazer4 1s linear infinite;
   animation-delay: -1s;
 }
+
+
+
 
 @keyframes fazer1 {
   0% {
@@ -1018,7 +1020,7 @@ preload-finish{
   position: absolute;
   height: 2px;
   width: 20%;
-  background: #000;
+  background: #ffffff;
 }
 .longfazers span:nth-child(1) {
   top: 20%;
