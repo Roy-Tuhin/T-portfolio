@@ -1,4 +1,4 @@
-/* ---------------------------------------About section tabs--------------------------------------------------*/
+// /* ---------------------------------------About section tabs--------------------------------------------------*/
 (() => {
   const aboutSection = document.querySelector(".about-section"),
     tabsContainer = document.querySelector(".about-tabs");
@@ -25,6 +25,10 @@
       aboutSection.querySelector(target).classList.add("active");
     }
   });
+
 })();
 
+
+//Preloader
+window.onload = function(){ document.getElementById("loader_wrapper").style.display = "none" }
 
