@@ -645,7 +645,6 @@ img {
   /* portfolio image shadow */
   padding: 15px;
   border-radius: 5px;
-  cursor: pointer;
   width: 100%;
 }
 .portfolio-section .portfolio-item-img img {
