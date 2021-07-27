@@ -1077,3 +1077,10 @@ preload-finish{
 }
 
 
+.icon_button{
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.5rem;
+
+}
+
