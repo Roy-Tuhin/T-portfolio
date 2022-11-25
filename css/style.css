@@ -1083,4 +1083,50 @@ preload-finish{
   font-size: 1.5rem;
 
 }
-
+@keyframes sticky-ani{
+  0%{
+      transition: all ease 0.3s 0s;
+      transform: translateY(-200px);
+  }
+  100%{
+      transition: all ease 0.3s 0s;
+      transform: translateY(0px);
+  }
+}
+@keyframes back-sticky-ani{
+  0%{
+    
+      transition: all ease 0.3s 0s;
+      transform: translateY(200px);
+  }
+  100%{
+      transition: all ease 0.3s 0s;
+      transform: translateY(0px);
+  }
+}
+header nav{
+  width: 100%;
+}
+header nav ul{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+header nav ul li a{
+  color: #fff;
+  padding: 12px 16px;
+  margin:  0 12px;
+}
+header{
+    padding: 22px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0,0.3);
+    z-index: 9999;
+    animation: back-sticky-ani 0.4s 0s;
+    width: 100%;
+}
+header.sticky{
+  animation: sticky-ani 0.8s 0s;
+}

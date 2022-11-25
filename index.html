@@ -67,7 +67,21 @@
      </div>
 
 
-
+    <header>
+         <div class="container">
+             <div class="row">
+                       <nav>
+                         <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="#about">About</a></li>
+                              <li><a href="#experience">Experience</a></li>
+                              <li><a href="#portfolio">Projects</a></li>
+                              <li><a href="#contact">Contact</a></li>
+                           </ul>
+                       </nav>
+             </div>
+         </div>
+    </header>
 
      <!----------------------------- Home Section start-------------------------------------------------->
      <section class="home-section section active " id="home">
@@ -196,7 +210,7 @@
 
                <!------------------------1) Experience Start---------------skills/experience/project------------>
                <div class="row">
-                    <div class="experience tab-content active">
+                    <div class="experience tab-content active"  id="experience">
                          <div class="row">
                               <div class="timeline">
                                    <div class="row">
@@ -842,7 +856,21 @@
 
      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+   
+   <script>
+  jQuery( document ).ready(function() {
+          jQuery(window).scroll(function() {
+            if (jQuery(this).scrollTop() > 100) {
+              jQuery('header').addClass("sticky");
+            } else {
+              jQuery('header').removeClass("sticky");
+            }
+          });
+        });
+   </script>
+   
+        
 </body>
 
 </html>
