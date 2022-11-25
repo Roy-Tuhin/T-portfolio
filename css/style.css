@@ -1130,3 +1130,18 @@ header{
 header.sticky{
   animation: sticky-ani 0.8s 0s;
 }
+
+@media(max-width:767px){
+  .ham{
+     display: none;
+  }
+  header{
+    display: none;
+  }
+  /* .ham span{
+    height: 5px;
+    width: 30px;
+    display: block;
+    background: rgb(255, 255, 255);
+  } */
+}
